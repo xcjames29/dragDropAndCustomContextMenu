@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    gap: 20px;
+}
+
+h1{
+    color: white;
+    pointer-events: none;
+}
+
+.dragContainer{
+    width: 33vw;
+    min-height: 500px;
+    background-color: rgb(91, 91, 180);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 30px;
+}
+
+
+
+.options{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    font-size: 24px;
+    color: rgb(88, 156, 211);
+    border: 2px solid rgb(88, 156, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: move;
+}
+
+.dragging{
+    opacity: 0.5;
+}
+
+.dragArea{
+    flex:1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightClickContainer{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    position: relative;
+}
+
+
+.show{
+    display: flex;
+}
+
+.context{
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 150px;
+    border: 1px solid black;
+    background-color: cornsilk;
+    position: absolute;
+
+}
+
+.hide{
+    display: none;
+}
+
+
+.contextOptions{
+    height: 50px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contextOptions:hover{
+   background-color: rgb(184, 169, 113);
+}

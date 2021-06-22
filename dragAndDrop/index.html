@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drag and Drop</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="dragContainer" id="toDo">
+            <h1>To Do</h1>
+            <div class="dragArea">
+                <div draggable="true" class="options" id="first-card">Finish all chores</div>
+                <div draggable="true" class="options">Go to the gym</div>
+            </div>
+        </div>
+        <div class="dragContainer" id="doing">
+            <h1>Doing</h1>
+            <div class="dragArea">
+                <div draggable="true" class="options">Eat healthy food</div>
+                <div draggable="true" class="options">Read amazing books</div>
+            </div>
+
+        </div>
+        <div class="dragContainer" id="done">
+            <h1>Done</h1>
+            <div class="dragArea">
+                <div draggable="true" class="options">Sleep for 8 hours</div>
+                <div draggable="true" class="options">Go shopping at the mall</div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
